@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald&display=swap');
+
+:root{
+    --background:#f2f5fa;
+    --pageB:#fdbb0d;
+    --btn:#486a1d;
+    --productBox:#ffffff;
+    --offerBTN:#f9bb12;
+    --megaHeader:#403b51;
+    --h2Header:#ec1b42;
+
+}
+
+
+*{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding: 0 10px 0 10px; */
+    margin: 0;
+}
+body{
+    background-color: var(--background);
+}
+.both{
+    
+    background-image: url("./asset/IMAGES/HEALTHY-FOOD-WITH-BACKGROUND-IMAGE.png");
+    /* background-image: url("./asset/Rectangle\ 1.png"); */
+    background-repeat: no-repeat;
+    background-size: 50rem;
+    background-position: right top;
+    
+
+}
+#header{
+    width: 100%;
+    height: 5.4rem;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+nav{
+    padding: 40px;
+    column-gap: 38px;
+    display: flex;
+    line-height: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 25px;
+    color:var(--megaHeader)
+}
+nav a:hover{
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 25px;
+    color:var(--pageB)
+}
+/* section{
+    max-width: 1200;
+    margin: auto;
+    padding: 70px 0;
+
+} */
+.section1{
+    /* background-image: url("./asset/Hreo-img.png"); */
+    background-repeat: no-repeat;
+    background-position: right top;
+    display: inline-flex;
+    width: 100%;
+    height: 80%;
+    line-height: rem;
+    justify-content: space-between;
+
+}
+
+.right img{
+    height: 20rem;
+    width:20rem
+}
+
+.left h2{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 4em;
+    color: var(--h2Header);
+    padding-left: 5rem;
+
+}
+
+.left h1{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 8rem;
+    color: var(--megaHeader);
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+}
+.left button{
+    font-size: 1.3em;
+    color: var(--background);
+    margin-left: 50px;
+    padding: 10px 20px 10px 20px;
+    background-color: var(--btn);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left button:hover{
+    font-size: 1em;
+    color: var(--background);
+    padding: 10px 20px 10px 20px;
+    background-color: var(--offerBTN);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(107, 106, 106, 0.2), 0 6px 20px 0 rgba(44, 44, 44, 0.19);
+}
+
+.medcadami{
+    display: flex;
+
+}
+.card{
+    border-radius: 6px;
+    background-color: var(--productBox);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+}
+
+.header3{
+    display: flex;
+    justify-content: center;
+    font-size: 3.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.products{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 42px;
+    margin-top: 20px;
+}
+ul{
+    list-style-type: none; 
+}
+
+#productInfo{
+    background-image: url("./asset/Hreo-img.png");
+    /* background-color: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.cardInner img{
+    margin: 20px;
+    background-color: #486a1d;
+    padding-top: 100rem;
+    border-radius: 50%;
+    border: 1px solid var(--btn);
+}
+
+.productdetils{
+    /* background-image: url("./asset/IMAGES/YELLO-BACKGROUND-WITH-HEALTHY-TEXT.png");
+    background-repeat: no-repeat; */
+    /* background-position: left; */
+    padding:0px;
+    display: FLEX;
+    justify-content: space-between;
+    margin: 0 !important;
+}
+.detil{
+  background-color: #486a1d;
+  border-radius: 10px;
+  padding: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.footer{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 42px;
+    margin-top: 20px;
+}
+.content{
+    padding: 20px 10rem;
+    line-height: 20px;
+
+}
+.content h1{
+    color: var(--btn);
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 30px;
+}
+.content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.leftport{
+    position: fixed;
+    background-color: var(--btn);
+    width: 25vw;
+    height: 100vh;
+    border-right:3px solid var(--offerBTN);
+    justify-content: center;
+    display: flex;
+}
+.rightport{
+    position: absolute;
+    width: calc(100% - 0vw);
+    height: 100vh;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+}
+.funcbtn{
+    
+    
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" type="text/css" href="feedstyle.css">
+    <!-- <link rel="stylesheet" type="text/css" href="main.css"> -->
+    <style>
+        /* @import url('https://fonts.googleapis') */
+        .innerFormField{
+            height: 85vh;
+            width: 50rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <header id="header">
+        <a href="main.html"><img href="#" src="./asset/IMAGES/Logo.png" id="logo" style="height: 5rem" /></a>
+        <nav>
+          <a href="main.html" >Home</a>
+          <a href="product.html">Product</a>
+          <a href="./blog">Blog</a>
+          <a href="./refrence">Refrence</a>
+          <a href="./about.html">About US</a>
+          <a href="#">Feedback</a>
+        </nav>
+      </header> -->
+      <form id="myForm" onsubmit="validateForm(event)">
+        <label for="name">Name:</label>
+    
+        <input type="text" id="name" name="names">
+        <span id="nameError" class="error"></span>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <span id="emailError" class="error"></span>
+    
+        <label for="number">Number:</label>
+        <input type="text" id="number" name="number" required>
+        <span id="numberError" class="error"></span>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <span id="passwordError" class="error"></span>
+    
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <span id="confirmPasswordError" class="error"></span>
+    
+        <input type="submit" value="Submit">
+      </form>
+    
+      <script src="./main.js"></script>
+            
+            
+
+            
+    <!-- </div>
+    </fieldset>
+    <footer style="display: inline-flex; padding-top: 30px;">
+        <div>
+          <img src="./asset/IMAGES/Logo.png" style="height: 8rem" >
+        </div>
+        <div>
+          <table>
+            <tr>
+              <td><ul>
+                <li>How to order</li>
+                <li>Support</li>
+                <li>Copywrite @ 2024 ageskirana.com</li>
+              </ul></td>
+              <td><ul>
+                <li>Tearn and Condition</li>
+                <li>Shipping Policy</li>
+                <li>Return Policy</li>
+              </ul></td>
+              <td><ul>
+                <li>Contact Us</li>
+                <li>01-4381555</li>
+                <li>Copywrite @ 2024 ageskirana.com</li>
+              </ul></td>
+              <td><ul>
+                <li>Download App</li>
+                <li><img src="./asset/IMAGES/google-play-app-store-icons.png" rowspan="2" style="height: 8rem;"></li>
+              </ul></td>
+            </tr>
+          </table>
+          
+          
+          
+          
+        </div>
+      </footer> -->
+
+
+</body>
+
+</html>
